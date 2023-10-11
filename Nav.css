@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    border: 1px solid black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    background-color: rgb(143, 143, 243);
+    text-decoration: none;
+    
+}
+
+a:hover {
+    background-color: aquamarine;
+    color:aliceblue;
+}
+
+li a.active {
+    background-color: rgb(0, 0, 151);
+    color: black;
+}
+
+li { 
+    text-align: center;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
