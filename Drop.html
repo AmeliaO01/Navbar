@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .dropdown {
+           display: inline-block;
+           position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 200px;
+            box-shadow: 6px 2px 5px 0.7px;
+            padding: 10px 20px;
+            z-index: 1;
+
+        }
+
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+    <p> This page is for a dropdown </p>
+    <div class="dropdown">
+    <span> Hover over this</span>
+   <div class="dropdown-content"> 
+    <p> Dropdown </p>
+    </div>
+   </div>
+    
+</body>
+</html>
